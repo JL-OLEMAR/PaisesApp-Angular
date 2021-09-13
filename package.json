@@ -41,7 +41,7 @@
   "eslintConfig": {
     "parser": "./tsconfig.json",
     "extends": "./node_modules/ts-standard/eslintrc.json",
-    "ignore": [
+    "ignorePatterns": [
       "node_modules/**",
       "dist/**"
     ]
