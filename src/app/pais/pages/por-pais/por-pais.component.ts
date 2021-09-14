@@ -29,7 +29,7 @@ export class PorPaisComponent {
       })
   }
 
-  segerencias (termino: string): void {
+  sugerencias (termino: string): void {
     this.hayError = false
     // TODO: Crear sugerencias
   }
