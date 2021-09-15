@@ -1,16 +1,17 @@
-<h1>Por Cápital</h1>
-<hr>
+<div class="animate__animated animate__fadeIn animate__faster">
+  <h1>Por Cápital</h1>
+  <hr>
 
-<div class="row">
-  <div class="col">
-    <app-pais-input
+  <div class="row">
+    <div class="col">
+      <app-pais-input
       (onEnter)="buscar($event)"
-      placeholder="Buscar cápital..."
-    ></app-pais-input>
+        placeholder="Buscar cápital..."
+      ></app-pais-input>
+    </div>
   </div>
+  <hr>
 </div>
-
-<hr>
 
 <div *ngIf='hayError' class="alert alert-danger">
   No se encontró nada con el término {{termino}}
